@@ -4,6 +4,8 @@
     --white: #fff;
     --brightcolor: #F5F5F5;
     height: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
 }
 *{
     margin: 0;
@@ -23,16 +25,12 @@
     justify-content: space-between;
 }
 h1 {
-    font-family: 'Poppins';
-    font-style: normal;
     font-size: 7vh;
     color: var(--bluecolor);
     padding-top: 20vh;
     padding-left: 2vh;
 }
 form {
-    font-family: 'Poppins';
-    font-style: normal;
     margin: 10vh;
     width: 100%;
     justify-content: center;
@@ -58,13 +56,11 @@ form {
 p {
     color: var(--bluecolor);
 }
-.login-btn {
+.btn {
     display: flex;
     justify-content: center;
 }
 button {
-    font-family: 'Poppins';
-    font-style: normal;
     background-color: var(--bluecolor);
     color: var(--white);
     border: 0;
@@ -85,4 +81,41 @@ button {
 }
 .sign-up .signup {
     color: var(--bluecolor);
-} 
+}
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--brightcolor);
+    padding: 3vh;
+    height: 100vh;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.head img {
+    height: 20vh;
+}
+.head h1 {
+    padding-top: 10vh;
+}
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem 0rem;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 90vh;
+    /* padding: 0rem 2rem; */
+}
+.agree-signup {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2vh;
+    margin: 0 16vh 0 16vh; 
+}
